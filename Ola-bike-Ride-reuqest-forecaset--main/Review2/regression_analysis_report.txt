@@ -1,0 +1,57 @@
+
+OLA BIKE RIDE REQUEST FORECASTING - REGRESSION ANALYSIS REPORT
+================================================================
+
+Analysis Date: 2025-10-21 21:32:32
+
+MODEL PERFORMANCE SUMMARY:
+========================
+
+SVM Model Results:
+-----------------
+
+Training Performance:
+  - RMSE: 0.0664
+  - R² Score: 0.9997
+
+Testing Performance:
+  - RMSE: 0.2147
+  - R² Score: 0.9966
+
+Training Time: 1.90 seconds
+
+KNN Model Results:
+-----------------
+Training Performance:
+  - RMSE: 0.0000
+  - R² Score: 1.0000
+
+Testing Performance:
+  - RMSE: 1.7826
+  - R² Score: 0.7690
+
+Training Time: 0.00 seconds
+
+RECOMMENDATION:
+==============
+Best Model: SVM
+Best R² Score: 0.9966
+
+The SVM model shows superior performance for ride request forecasting
+with an R² score of 0.9966, indicating it explains 99.7% of the variance
+in the target variable.
+
+BUSINESS IMPACT:
+===============
+The implemented models can help Ola optimize:
+1. Driver allocation based on predicted demand
+2. Dynamic pricing strategies
+3. Route optimization
+4. Resource planning
+
+NEXT STEPS:
+===========
+1. Deploy the SVM model in production
+2. Implement real-time prediction pipeline
+3. Monitor model performance and retrain as needed
+4. Expand feature engineering based on additional data sources

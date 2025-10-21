@@ -1,0 +1,6 @@
+print("Tools Used:")
+print("Data Processing: Pandas, NumPy")
+print("Visualization: Matplotlib, Seaborn")
+print("Machine Learning: Scikit-learn, XGBoost")
+print("Statistical Analysis: SciPy")
+print("Programming Language: Python 3.11")
